@@ -10,6 +10,9 @@
     <string name="total">Total:</string>
     <string name="mean_grade">Mean Grade:</string>
     <string name="attendance">Attendance</string>
+    <string name="receipt_no">receipt no.</string>
+    <string name="amount">amount</string>
+    <string name="date">date</string>
     <string-array name="results">
 
         <item>Entry Exam</item>
@@ -18,4 +21,5 @@
         <item>Cat 2</item>
         <item>End term</item>
     </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

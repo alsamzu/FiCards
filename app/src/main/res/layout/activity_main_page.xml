@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#e1f5fe"
 
-    tools:context=".MainPage">
+    tools:context=".ui.MainPage">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/attendance"
@@ -14,7 +14,7 @@
         android:layout_height="120dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/main_page_bg"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -64,7 +64,7 @@
         android:layout_marginStart="116dp"
 
         android:layout_marginLeft="116dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:background="@drawable/main_page_bg"
@@ -308,12 +308,15 @@
         android:layout_height="120dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="68dp"
         android:background="@drawable/main_page_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/health"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageButton
             android:id="@+id/busImageButton"

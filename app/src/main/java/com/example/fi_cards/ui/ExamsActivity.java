@@ -1,9 +1,11 @@
-package com.example.fi_cards;
+package com.example.fi_cards.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
+import com.example.fi_cards.R;
 
 public class ExamsActivity extends AppCompatActivity {
 

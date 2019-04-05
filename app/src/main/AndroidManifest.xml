@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainPage">
-
-        </activity>
-        <activity android:name=".ExamsActivity">
-
-        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ui.BusActivity" />
+        <activity android:name=".ui.HealthActivity" />
+        <activity android:name=".ui.DisciplineActivity" />
+        <activity android:name=".ui.NewsActivity" />
+        <activity android:name=".ui.FeesActivity" />
+        <activity android:name=".ui.AtendanceActivity" />
+        <activity android:name=".ui.MainPage" />
+        <activity android:name=".ui.ExamsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

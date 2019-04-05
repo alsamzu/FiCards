@@ -18,7 +18,7 @@ android:background="@drawable/gradient"
         android:layout_alignParentRight="true"
         android:layout_marginStart="43dp"
         android:layout_marginLeft="43dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:adjustViewBounds="true"
@@ -33,7 +33,6 @@ android:background="@drawable/gradient"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ficards" />
-
 
 
     <RelativeLayout
@@ -54,7 +53,7 @@ android:background="@drawable/gradient"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.638">
+        app:layout_constraintVertical_bias="0.529">
 
 
         <android.support.design.widget.TextInputLayout
@@ -67,13 +66,13 @@ android:background="@drawable/gradient"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
-           android:textColorHint="#fff"
-
             android:layout_marginStart="44dp"
+
             android:layout_marginLeft="44dp"
             android:layout_marginTop="35dp"
             android:layout_marginEnd="52dp"
-            android:layout_marginRight="52dp">
+            android:layout_marginRight="52dp"
+            android:textColorHint="#fff">
 
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/loginInputEditText"
@@ -103,8 +102,8 @@ android:background="@drawable/gradient"
             android:layout_marginEnd="52dp"
             android:layout_marginRight="52dp"
             android:layout_marginBottom="164dp"
-            app:passwordToggleEnabled="true"
             android:textColorHint="#fff"
+            app:passwordToggleEnabled="true"
             app:passwordToggleTint="@color/myred">
 
             <android.support.design.widget.TextInputEditText
@@ -130,10 +129,10 @@ android:background="@drawable/gradient"
             android:layout_marginStart="44dp"
             android:layout_marginLeft="44dp"
             android:layout_marginTop="-130dp"
+            android:buttonTint="#fff"
             android:text="Remember me"
             android:textColor="#fff"
             android:textSize="18sp"
-          android:buttonTint="#fff"
 
             app:layout_constraintRight_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
